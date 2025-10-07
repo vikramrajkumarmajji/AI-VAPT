@@ -1,0 +1,92 @@
+{
+  "typography": [
+    {
+      "name": "Header 1",
+      "preview": "Aa",
+      "tag": "h1",
+      "classes": [
+        "text-4xl",
+        "font-extrabold",
+        "tracking-tight",
+        "lg:text-5xl"
+      ],
+      "previewClasses": ["text-3xl", "font-extrabold", "tracking-tight"]
+    },
+    {
+      "name": "Header 2",
+      "preview": "Aa",
+      "tag": "h2",
+      "classes": ["text-3xl", "font-semibold", "tracking-tight"]
+    },
+    {
+      "name": "Header 3",
+      "preview": "Aa",
+      "tag": "h3",
+      "classes": ["text-2xl", "font-semibold", "tracking-tight"]
+    },
+    {
+      "name": "Header 4",
+      "preview": "Aa",
+      "tag": "h4",
+      "classes": ["text-xl", "font-semibold", "tracking-tight"]
+    },
+    {
+      "name": "Paragraph",
+      "preview": "¶",
+      "tag": "p",
+      "classes": ["leading-7"]
+    },
+    {
+      "name": "Lead Text",
+      "preview": "A",
+      "tag": "p",
+      "classes": ["text-xl", "text-muted-foreground"]
+    },
+    {
+      "name": "Blockquote",
+      "preview": "abc",
+      "tag": "blockquote",
+      "classes": ["border-l-2", "pl-6", "italic"],
+      "previewClasses": ["border-l-2", "pl-2", "italic"]
+    },
+    {
+      "name": "Inline Code",
+      "preview": "foo",
+      "tag": "code",
+      "classes": [
+        "relative",
+        "rounded",
+        "bg-muted",
+        "px-[0.3rem]",
+        "py-[0.2rem]",
+        "font-mono",
+        "text-sm",
+        "font-semibold"
+      ]
+    },
+    {
+      "name": "Large",
+      "preview": "A",
+      "tag": "div",
+      "classes": ["text-lg", "font-semibold"]
+    },
+    {
+      "name": "Small",
+      "preview": "Aa",
+      "tag": "small",
+      "classes": ["text-sm", "font-medium", "leading-none"]
+    },
+    {
+      "name": "Muted",
+      "preview": "Aa",
+      "tag": "p",
+      "classes": ["text-sm", "text-muted-foreground"]
+    },
+    {
+      "name": "Extra Small",
+      "preview": "Aa",
+      "tag": "p",
+      "classes": ["text-xs", "font-light"]
+    }
+  ]
+}
