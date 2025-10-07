@@ -1,44 +1,102 @@
 # AI-VAPT
-🧠 AI-VAPT — Autonomous AI-Driven Vulnerability Assessment & Penetration Testing Framework
+🧠 AI-VAPT
+Autonomous AI-Driven Vulnerability Assessment & Penetration Testing Framework
 
-AI-VAPT (Artificial Intelligence – Vulnerability Assessment & Penetration Testing) is an autonomous, enterprise-grade cybersecurity framework that blends traditional penetration testing methodologies with AI-powered reconnaissance, vulnerability analysis, and exploit prediction.
+AI-VAPT (Artificial Intelligence – Vulnerability Assessment and Penetration Testing) is a next-generation, fully automated cybersecurity framework that merges artificial intelligence, automation, and traditional penetration testing methodologies to deliver a self-learning, adaptive, and accurate security assessment engine.
 
-🚀 Key Features
+It’s designed for pentesters, red teams, and security researchers who want to move beyond manual recon and exploit discovery — into an AI-augmented security testing era.
 
-AI-Powered Reconnaissance — Smart subdomain, DNS, and port enumeration with neural pattern recognition.
+⚡ Key Highlights
 
-Automated Vulnerability Detection — Integrates CVE mapping, exploit prediction, and risk scoring using NLP models.
+🤖 AI-Augmented Reconnaissance — Uses neural pattern recognition to find hidden assets, misconfigured endpoints, and shadow subdomains.
 
-Comprehensive Scanning — Web, Network, API, and Cloud security scanning modules.
+🔍 Automated Multi-Vector Scanning — Performs Web, Network, API, Cloud, and IoT scans with intelligent prioritization.
 
-Reporting Engine — Generates professional, customizable vulnerability reports with risk severity, impact, and remediation guidance.
+🔬 Machine Learning Exploit Prediction — Detects exploitability levels using ML-based vulnerability scoring models.
 
-Plugin Support — Easily extendable with custom scripts or modules for specialized assessments.
+📊 Smart Reporting Engine — Generates detailed PDF/HTML reports with severity ranking, impact mapping, and remediation paths.
 
-Privacy-First Design — Zero data stored, zero data reused.
+🔒 Privacy by Design — Zero data stored, zero data reused. Fully offline-capable operation mode.
 
-🧩 Architecture Overview
+🧩 Modular & Extensible Architecture — Easily plug in new scanners, ML models, or third-party tools.
 
-Core Engine: Python-based automation & orchestration
+⚙️ Continuous Security Validation — Supports automated periodic testing pipelines through CI/CD integration.
 
-AI Layer: ML/NLP models for pattern recognition & exploit correlation
+🧠 Architecture Overview
+Layer	Description
+AI Layer	NLP-driven analysis for exploit prediction, CVE correlation, and anomaly detection.
+Recon Layer	Subdomain, DNS, Port, Directory, and Service enumeration using hybrid AI+dictionary techniques.
+Vulnerability Layer	CVE mapping, version fingerprinting, misconfiguration detection, and exploit validation.
+Exploitation Layer	Controlled exploitation simulation and payload validation (safe mode).
+Reporting Layer	Risk-based visual reporting engine with auto-generated insights and recommendations.
+🧰 Integrated Tools
 
-Modules: Recon, Exploitation, Post-Exploitation, Reporting
+Reconnaissance: Amass, Subfinder, Nmap, Shodan API, CRT.sh
 
-Integrations: Nmap, Nikto, SQLMap, BurpSuite API, Shodan, CVE feeds
+Web Scanning: Nikto, Dirsearch, Wapiti, BurpSuite API
 
-⚙️ Use Cases
+Exploit Mapping: CVE Trends, Exploit-DB, ML-based CVE Exploitability Model
 
-Enterprise Penetration Testing
+Post-Exploitation: Metasploit integration, local privilege check, token dumping modules
 
-Red Team / Blue Team Assessments
+Reporting: AI-generated executive and technical summaries
 
-Continuous Security Validation
+🧑‍💻 Use Cases
+
+Automated Red Team Assessments
+
+Continuous Vulnerability Management
 
 AI-assisted Bug Bounty Recon
 
+SOC Validation Testing
 
-👤 Author
+Compliance Audits (ISO 27001, NIST, PCI-DSS, etc.)
 
-Vikram Raj Kumar Majji
-Security is no more an option — Privacy by design, trust by vision.
+🧩 1. Prerequisites
+
+#Make sure you have Node.js and npm (or yarn/pnpm) installed:
+node -v
+npm -v
+
+
+#If not installed, run:
+sudo apt update
+sudo apt install nodejs npm -y
+
+🚀 Getting Started
+# Clone the repository
+git clone https://github.com/vikramrajkumarmajji/AI-VAPT.git
+
+# Navigate to project folder
+cd AI-VAPT
+
+#Install dependencies
+npm install
+
+#or (if using yarn)
+yarn install
+
+#Start the development server
+npm run dev
+
+
+Then open the displayed local URL (usually http://localhost:5173) in your browser.
+
+#(Optional) Build for production
+npm run build
+
+📈 Future Roadmap
+
+🔹 Integration with LLM-based reasoning engines for contextual vulnerability explanation
+
+🔹 Real-time exploit chain mapping visualization
+
+🔹 Threat intelligence enrichment through OSINT automation
+
+🔹 Cloud-native agent for AWS, Azure, and GCP audits
+
+🛡️ Philosophy
+
+“Security is no more an option — Privacy by design, trust by vision.”
+— Vikram Raj Kumar Majji
