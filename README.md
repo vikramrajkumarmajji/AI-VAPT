@@ -6,7 +6,7 @@ AI-VAPT (Artificial Intelligence – Vulnerability Assessment and Penetration Te
 
 It’s designed for pentesters, red teams, and security researchers who want to move beyond manual recon and exploit discovery — into an AI-augmented security testing era.
 
-![AI-VAPT Flowchart](Flowchart.png)
+![AI-VAPT Dashboard](Dashboard.png)
 
 ⚡ Key Highlights
 
@@ -42,6 +42,8 @@ Exploit Mapping: CVE Trends, Exploit-DB, ML-based CVE Exploitability Model
 Post-Exploitation: Metasploit integration, local privilege check, token dumping modules
 
 Reporting: AI-generated executive and technical summaries
+
+![AI-VAPT Flowchart](Flowchart.png)
 
 🧑‍💻 Use Cases
 
