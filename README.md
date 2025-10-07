@@ -81,7 +81,7 @@ yarn install
 npm run dev
 
 
-# Then open the displayed local URL (usually http://localhost:5173) in your browser.
+Then open the displayed local URL (usually http://localhost:5173) in your browser.
 
 # (Optional) Build for production
 npm run build
