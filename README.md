@@ -71,19 +71,19 @@ git clone https://github.com/vikramrajkumarmajji/AI-VAPT.git
 # Navigate to project folder
 cd AI-VAPT
 
-#Install dependencies
+# Install dependencies
 npm install
 
-#or (if using yarn)
+# or (if using yarn)
 yarn install
 
-#Start the development server
+# Start the development server
 npm run dev
 
 
-Then open the displayed local URL (usually http://localhost:5173) in your browser.
+# Then open the displayed local URL (usually http://localhost:5173) in your browser.
 
-#(Optional) Build for production
+# (Optional) Build for production
 npm run build
 
 📈 Future Roadmap
